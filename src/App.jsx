@@ -29,7 +29,7 @@ function App() {
     }
 
     setCustomer(data)
-    if (data.phone === '0000000000') setShowDashboard(true)
+    if (data.phone === '9664149181') setShowDashboard(true)
     setLoading(false)
   }
 
