@@ -52,8 +52,8 @@ function App() {
 
         {/* Header */}
         <div className="text-center mb-6">
-          <h1 className="text-3xl font-bold text-blue-600">🥛 MilkMate</h1>
-          <p className="text-gray-500 text-sm mt-1">Your daily delivery assistant</p>
+          <h1 className="text-3xl font-bold text-blue-600">MilkMate</h1>
+          <p className="text-gray-500 text-sm mt-1">Your daily Milk delivery assistant</p>
         </div>
 
         {/* Phone Input */}
