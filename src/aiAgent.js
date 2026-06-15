@@ -31,9 +31,12 @@ Rules:
 - action "pause" = customer wants to skip delivery
 - action "resume" = customer wants to restart delivery
 - action "extra_order" = customer wants additional quantity
+- Only take action if the customer CLEARLY asks about delivery (pause, resume, extra order)
+- If the message is casual conversation like greetings, bye, thanks — reply friendly but do NOT return pause/resume/extra_order action, instead use action: "chat"
+- Never assume a delivery action from casual messages
 - Always fill start_date
 - For single day requests, start_date and end_date are the same
-- reply should be warm, short and in simple English
+- reply should be warm, short and in simple Hindi
 - Return ONLY the JSON, no extra text`
         },
         {
